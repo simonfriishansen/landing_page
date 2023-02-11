@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .dark-bg {
     background-color: #1f2937;
 }
@@ -9,14 +17,10 @@
 }
 
 .hero-secondary-text,
-.header-link-text {
+.header-link-text,
+.footer-text {
     font-size: 18px;
-    color: e5e7eb;
-}
-
-.header-logo-text {
-    font-size: 24px;
-    color: #f9faf8;
+    color: #e5e7eb;
 }
 
 .button-bg,
@@ -35,3 +39,39 @@
     color: #1f2937
 }
 
+.header-container {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    max-width: 1000px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
