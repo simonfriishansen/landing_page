@@ -3,7 +3,7 @@ body {
     margin: 0;
     gap: 0;
     min-height: 100vh;
-    display: flex;
+    display: flex;  
     flex-direction: column;
     justify-content: space-between;
 }
@@ -181,4 +181,42 @@ a {
     font-weight: 700;
     color: #1f2937;
     align-self: flex-end;
+}
+
+.cta-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section {
+    max-width: 1000px;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cta-content {
+    display: flex;
+    flex: 1;
+    margin: 40px 80px;
+    justify-content: space-between;
+}
+
+.cta-column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.cta-secondary-text {
+    font-size: 16px;
+    color: #ffffff;
 }
