@@ -42,17 +42,6 @@ a {
     background-color: #3882f6;
 }
 
-.quote-bg {
-    background-color: #e5e7eb;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1f2937
-}
-
 .header-container {
     height: 72px;
     display: flex;
@@ -122,7 +111,7 @@ a {
 }
 
 .info-section-container {
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,4 +151,34 @@ a {
     text-align: center;
     color:#1f2937;
     font-size: 16px;
+}
+
+.quote-section-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-section {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote-byline {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    align-self: flex-end;
 }
