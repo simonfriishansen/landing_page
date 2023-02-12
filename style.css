@@ -13,6 +13,10 @@ a {
     padding: 8px 12px;
 }
 
+.section-margin {
+    margin: 120px 0;
+}
+
 .dark-bg {
     background-color: #1f2937;
 }
@@ -62,7 +66,6 @@ a {
 }
 
 .hero-section-container {
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +114,6 @@ a {
 }
 
 .info-section-container {
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +121,6 @@ a {
 
 .info-section {
     max-width: 1000px;
-    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,7 +155,6 @@ a {
 }
 
 .quote-section-container {
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
