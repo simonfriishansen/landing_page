@@ -41,11 +41,6 @@ a {
     text-align: center;
 }
 
-.button-bg,
-.cta-bg {
-    background-color: #3882f6;
-}
-
 .header-container {
     height: 72px;
     display: flex;
@@ -103,7 +98,7 @@ a {
     color: #f9faf8
 }
 
-.button {
+.button-filled {
     width: 140px;
     height: 40px;
     font-size: 18px;
@@ -111,6 +106,18 @@ a {
     border-radius: 8px;
     border-style: none;
     color: white;
+    background-color: #3882f6;
+}
+
+.button-outline {
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px #ffffff solid;
+    color: white;
+    background-color: #3882f6;
 }
 
 .info-section-container {
@@ -195,6 +202,7 @@ a {
     flex: 1 1 auto;
     align-items: center;
     border-radius: 8px;
+    background-color: #3882f6;
 }
 
 .cta-content {
@@ -202,6 +210,7 @@ a {
     flex: 1;
     margin: 40px 80px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cta-column {
