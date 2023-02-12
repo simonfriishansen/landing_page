@@ -1,10 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    gap: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
 }
 
 .dark-bg {
@@ -26,7 +32,7 @@ body {
 
 .button-bg,
 .cta-bg {
-    background-color: 3882f6;
+    background-color: #3882f6;
 }
 
 .quote-bg {
@@ -59,6 +65,32 @@ body {
     display: flex;
 }
 
+.hero-section-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    max-width: 1000px;
+    height: 220px;
+    display: flex;
+    gap: 40px;
+}
+
+.hero-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-img {
+    width: 50%;
+    border-radius: 8px;
+}
+
 .footer {
     height: 72px;
     display: flex;
@@ -72,7 +104,12 @@ body {
     color: #f9faf8
 }
 
-a {
-    text-decoration: none;
-    padding: 8px 12px;
+.button {
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
 }
